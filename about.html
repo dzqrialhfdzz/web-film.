@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>About - Free Movie Server</title>
+	<style>
+		body {
+			background-color: black;
+			font-family: Sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			color: green;
+			text-align: center;
+		}
+
+		nav {
+			margin: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: black;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: green;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: white;
+		}
+
+		.upspace {
+			padding-top: 150px;
+		}
+
+		.container {
+			position: relative;
+			width: 30%;
+			margin: 0 auto;
+		}
+
+		.image {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 70%;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: 0.5s ease;
+			background-color: green;
+			border-radius: 70%;
+		}
+
+		.container:hover .overlay {
+			opacity: 1;
+		}
+
+		.text {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.centered-text {
+			text-align: center;
+			color: green;
+		}
+
+		.footer {
+			padding-top: 100px;
+			text-align: center;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="https://wa.me/6289676461858">Request Movie</a></li>
+			<li><a href="https://wa.me/6289676461858">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<div class="upspace"></div>
+
+	<div class="container">
+		<img src="assets/profile.png" alt="Avatar" class="image">
+		<div class="overlay">
+			<div class="text">Dziqri Al Hafidz</div>
+		</div>
+	</div>
+
+	<div class="centered-text">
+		<h1>This Server Created By Dziqri Al Hafidz</h1>
+		<p>Our Mission is to provide free movies/web content for free without internet for time pass 😄</p>
+	</div>
+
+	<div class="footer">
+		<p>Made with 💙 by Hafidz</p>
+	</div>
+
+	<a href="assets/1.jpg" download>Download Image</a>
+</body>
+</html>
